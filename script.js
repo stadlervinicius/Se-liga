@@ -14,7 +14,7 @@ let media = (nota1 + nota2 + nota3)/3;
 let resultadoDiv = document.getElementById('resultado');
 if (media>= 6.0){
 resultadoDiv.innerHTML=`<p class="Aprovado">Aprovado! Sua media foi: ${media.toFixed(2)}<p/>`;
-}
+}se-liga-6zvv.verce
 else {
     resultadoDiv.innerHTML=`<p class="Recuperação">Recuperação! Sua media foi: ${media.toFixed(2)}<p/>`;
 }
